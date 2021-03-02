@@ -13,7 +13,7 @@ Feel free to use these lines as you wish. These programs load a graph in main me
 
 ## To execute:
 
-- "zcat edgelist.txt | ./edgelist" : load the graph as a list of edges (for undirected or directed graphs)
+- "zcat edgelist.txt.gz | ./edgelist" : load the graph as a list of edges (for undirected or directed graphs)
 - "zcat adjarray.txt.gz | ./adjarray" : load the undirected graph as an adjacency array
 - "zcat edgelist.txt.gz | ./convert | gzip > adjaray.txt.gz"
 
